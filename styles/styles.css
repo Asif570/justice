@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "EB Garamond", serif;
+  color: #414040;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  color: #707070;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.light-bg {
+  background: #f3f3f3;
+}
+.base-color-bg {
+  background: #b68c5a;
+}
+.base-color {
+  color: #b68c5a;
+}
+.btn:hover {
+  background: #8e6d46;
+}
+.text-color {
+  color: #707070;
+}
+.hero-banner {
+  background: url("../images/banner.png"),
+    linear-gradient(180deg, #111111 0%, rgba(17, 17, 17, 0) 100%);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header .text-box {
+  max-width: 600px;
+}
+.text-box {
+  max-width: 700px;
+}
+.Practice .col:hover {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7 !important;
+}
+.carousel-item > img {
+  height: 500px;
+  border-radius: 8px;
+}
+.carousel-item > .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(17, 17, 17, 0.8);
+  border-radius: 18px;
+  position: absolute;
+  top: 0;
+}
+.accordion-bg {
+  background: #f3f3f3;
+}
+.accordion-button:not(.collapsed) {
+  color: #414040 !important;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../images/icons/minus-solid.svg");
+}
+.accordion-button::after {
+  background-image: url("../images/icons/plus-solid.svg");
+}
+.accordion-button:not(.collapsed) {
+  background-color: #f3f3f3 !important;
+}
+.accordion-button:focus {
+  border-color: none !important;
+}
